@@ -176,6 +176,25 @@
             "c d"
             "e e";
         gap: 10px;
-        /* width: 80%; */
+        
+    }
+    /* 5thpart */
+
+    .mot-cards {
+        
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
+            "f";
+        width: 80%;
+    }
+
+    .mot-cards img {
+    
+        width: 100%;
+        
     }
 }
