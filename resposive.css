@@ -93,12 +93,28 @@
         margin-top: 30px;
     }
 
+    .cyh-title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        
+    }
+
 
     /* 3rdpart */
 
     .reme {
         flex-direction: column;
         align-items: center;
+
+    }
+
+    .reme-title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
 
     }
 
@@ -109,7 +125,57 @@
     }
 
     .red-btn {
-        width: 100%;
+        width: 50%;
         padding: 20px 40px;
+    }
+
+    /* 4thpart */
+
+
+    .bmi-content {
+        flex-direction: column;
+
+
+    }
+
+    .bmi-chart-title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+
+    .bmi-forms-title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 900;
+
+    }
+
+    .bmi-input input {
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 15px;
+        width: 85%;
+
+
+    }
+
+    .bmi-input {
+
+        
+        display: grid;
+        grid-template-areas:
+            "a b"
+            "c d"
+            "e e";
+        gap: 10px;
+        /* width: 80%; */
     }
 }

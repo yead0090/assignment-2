@@ -94,21 +94,29 @@ header {
 
 .btn-jcn,
 .red-btn {
-    padding: 20px 50px;
+    padding: 15px 30px;
     border: none;
     border-radius: 50px;
     background-color: rgb(230, 83, 60);
     color: white;
     margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .btn-da {
-    padding: 20px 50px;
+    padding: 15px 20px;
     border: 1px solid white;
     border-radius: 50px;
     background-color: transparent;
     color: white;
     margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .banner-img {
@@ -209,6 +217,7 @@ header {
     font-weight: 900;
     font-size: 50px;
     font-family: inter;
+    margin-bottom: 10px;
 
 
 }
@@ -271,7 +280,7 @@ header {
 
 .reme-info {}
 
-.reme-info .reme-title {
+.reme-title {
     color: white;
     margin-bottom: 15px;
     font-weight: 900;
@@ -299,4 +308,140 @@ header {
     width: 100%;
     border-radius: 20px;
 
+}
+
+/* 4thpart */
+
+.bmi-info-container {
+    background-color: black;
+}
+
+.bmi-info {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    
+    padding: 60px 0 150px 0;
+}
+
+.bmi-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.bmi-discription {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-content-container {
+    background-color: rgb(34, 34, 34);
+}
+
+.bmi-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.bmi-chart-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.bmi-chart-table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.bmi-chart-table th {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-chart-table td {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bmi-forms-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 50px 0 15px 0;
+    text-align: center;
+
+}
+
+.bmi-forms-discription {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.bmi-input {
+
+    
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e e";
+    gap: 10px;
+}
+    
+
+.bmi-input input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    
+    
+
+}
+
+.i-1 {
+    grid-area: a;
+}
+
+.i-2 {
+    grid-area: b;
+}
+
+.i-3 {
+    grid-area: c;
+}
+
+.i-4 {
+    grid-area: d;
+}
+
+.i-5 {
+    grid-area: e;
 }
