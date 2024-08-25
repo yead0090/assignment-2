@@ -140,6 +140,11 @@ header {
     display: flex;
     align-items: center;
 
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+
 
 
 }
@@ -175,6 +180,12 @@ header {
     top: 30%;
     padding: 10px 40px;
     background-color: rgba(0, 0, 0, 0.37);
+
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .banner .c-500 p {
@@ -237,14 +248,24 @@ header {
 
 }
 
-.cyh-cards .cards h3 {
+.cyh-cards .cards .title {
 
-    color: white;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
-.cyh-cards .cards p {
+.cyh-cards .cards .discription {
+
     color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 
 }
 
@@ -273,6 +294,7 @@ header {
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    
 
 
 
@@ -452,6 +474,7 @@ td {
 
 .mot-container {
     background-color: black;
+    padding-bottom: 60px;
 }
 
 .mot-info {
@@ -487,22 +510,23 @@ td {
     grid-template-areas:
         "a b c"
         "d e f";
-    border: 2px solid red;
+
 
 }
 
-.mot-cards .cards{
+.mot-cards .cards {
     position: relative;
-    
+
     padding: 20px;
 }
+
 .mot-cards img {
-    
+
     width: 320px;
     height: 270px;
     border: none;
     border-radius: 20px;
-    
+
 }
 
 .mot-cards .t-title {
@@ -513,12 +537,13 @@ td {
 }
 
 
-.t-info{
-    
+.t-info {
+
     position: absolute;
     bottom: 20%;
     left: 10%;
 }
+
 .mot-cards .t-discription {
 
     color: rgba(255, 255, 255, 0.5);
@@ -549,4 +574,116 @@ td {
 
 .t-6 {
     grid-area: f;
+}
+
+
+/* 6thpart */
+
+
+.ehf-container {
+    background-color: black;
+
+    padding-bottom: 50px;
+}
+
+.ehf-main {
+    max-width: 1100px;
+    margin: 0 auto;
+
+
+
+}
+
+.ehf-info {}
+
+.ehf-info .ehf-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ehf-info .ehf-discription {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ehf-content {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ehf-content img {
+    border-radius: 20px;
+    width: 330px;
+    height: 230px;
+
+}
+
+
+/* footerpart */
+
+
+
+.footer-container {
+    background-color: rgb(34, 34, 34);
+
+}
+
+.footer-main {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.footer-left .fl-title {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.footer-left .fl-discription {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fc-title,
+.fr-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.fc-discription,
+.fr-discription {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
